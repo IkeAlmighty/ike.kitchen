@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  @apply bg-f2f2f2 text-gray-800 font-roboto;
+}
+
+.container {
+  @apply max-w-screen-xl mx-auto p-5 bg-white rounded-lg shadow-md;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-arial text-gray-800 mb-5;
+}
+
+h1 {
+  @apply text-5xl;
+}
+
+h2 {
+  @apply text-4xl;
+}
+
+h3 {
+  /* Keeping default size for h3 */
+}
+
+a {
+  @apply text-0077b6 no-underline transition-colors duration-300 hover:text-ff6f61;
+}
+
+button {
+  @apply bg-0077b6 text-white px-5 py-2.5 border-none rounded-md cursor-pointer transition-colors duration-300 hover:bg-ff6f61;
+}
+
+.product-image {
+  @apply max-w-full h-auto border-2 border-gray-800 rounded-md shadow-md;
+}
+
+.h-100vh {
+  @apply h-screen;
+}
