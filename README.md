@@ -9,6 +9,10 @@ An SPA with ExpressJS backend for selling cottage food items.
 - AWS S3 (Image Hosting)
 - Mongodb (Database)
 
+## **Important Note on CRA Maintanence**
+
+I realized part of the way through this project that Create React App is no longer maintained and not recommended as a a way to implement React Apps anymore. Partially for nostalgia, and partially because I had already started coding, I decided to stick with the outdated technology. My other portfolio projects will be using more modern technologies such as NextJS or Sveltekit. But seeing as the core of web dev fundamentals will still be present in this project, I see no reason not to finish it with the outdated technology! I can always go back and reimplement the app if my Cottage Kitchen is successful.
+
 ## Dev Journey
 
 ### Hour 1
@@ -133,3 +137,21 @@ This component will simply display an S3Image, a plus icon, a minus icon, and a 
 I like the react toastify library. Let's use it. I just have to install the package, wrap the App component with ToastContainer, and then I'm ready to roll for the most part.
 
 Cool that was easy.
+
+### Homepage Layout
+
+I want the homepage to being the customer right to the point. That's why the first thing on the page will be a list of Products.
+
+### Styling
+
+I've decided to spend today styling, because I'm feeling a little distracted and css tends to be somewhat straight forward.
+
+I'll start with a global sheet, and I might as well ask ChatGPT to generate it for me.
+
+### Maybe Not Styling
+
+I started to try to style stuff, and then I realized I would much rather knock out the backend first - because I'd like all the components to be viewable before I start prettying them up.
+
+# Backend
+
+THe backend is going to be written in expressjs.
