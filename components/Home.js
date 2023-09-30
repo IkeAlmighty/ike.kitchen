@@ -24,7 +24,7 @@ export default function Home() {
 
       <div class="product-container">
         {productIds.map((id) => (
-          <Product productId={id} />
+          <Product key={id} productId={id} />
         ))}
       </div>
     </div>
